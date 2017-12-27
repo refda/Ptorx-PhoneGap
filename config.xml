@@ -4,17 +4,17 @@
   xmlns:gap="http://phonegap.com/ns/1.0"
   version="1.8.2"
   xmlns="http://www.w3.org/ns/widgets"
-  id="com.xyfir.ptorx"
+  id="com.traveluce.application"
 >
 
-  <name>Ptorx</name>
+  <name>Traveluce</name>
 
   <description>
     Proxy emails for an extra layer of security, privacy, and control for your emails.
   </description>
 
-  <author href="https://xyfir.com" email="contact@xyfir.com">
-    Xyfir, LLC
+  <author href="https://www.traveluce.com">
+    Traveluce
   </author>
 
   <!-- Preferences -->
