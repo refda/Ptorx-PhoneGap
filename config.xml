@@ -2,7 +2,7 @@
 
 <widget
   xmlns:gap="http://phonegap.com/ns/1.0"
-  version="1.8.2"
+  version="1.0.0"
   xmlns="http://www.w3.org/ns/widgets"
   id="com.traveluce.application"
 >
@@ -10,7 +10,7 @@
   <name>Traveluce</name>
 
   <description>
-    Proxy emails for an extra layer of security, privacy, and control for your emails.
+    Traveluce - Der Verkehrsmittelvergleich
   </description>
 
   <author href="https://www.traveluce.com">
@@ -121,7 +121,7 @@
   </platform>
 
   <config-file platform="ios" parent="CFBundleShortVersionString">
-    <string>1.8.2</string>
+    <string>1.0.0</string>
   </config-file>
 
   <allow-navigation href="*" />
