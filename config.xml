@@ -21,7 +21,7 @@
   <preference name="permissions" value="none"/>
   <preference name="orientation" value="default" />
   <preference name="target-device" value="universal" />
-  <preference name="fullscreen" value="true" />
+  <preference name="fullscreen" value="false" />
   <preference name="webviewbounce" value="false" />
   <preference name="DisallowOverscroll" value="true" />
   <preference name="prerendered-icon" value="true" />
@@ -43,6 +43,8 @@
   <plugin name="cordova-plugin-file-transfer" />
   --><plugin name="cordova-plugin-globalization" />
   <plugin name="cordova-plugin-inappbrowser" />
+  <plugin name="cordova-plugin-safariviewcontroller" />
+  
   <plugin name="cordova-plugin-media" />
   <plugin name="cordova-plugin-network-information" />
   <plugin name="cordova-plugin-splashscreen" />
