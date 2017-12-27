@@ -33,6 +33,7 @@
   <preference name="SplashMaintainAspectRatio" value="true" />
   <preference name="CRIPageLoadPromptInterval" value="0" />
   <preference name="CRIShowConnectionErrorDialog" value="0" />
+  <preference name="android-minSdkVersion" value="19" />
 
   <!-- Core plugins -->
   <plugin name="cordova-plugin-console" />
