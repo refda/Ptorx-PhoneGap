@@ -69,7 +69,7 @@
 
   
   
-  <splash src="res/screens/android/splash-port-ldpi.png" />
+  <splash src="res/screens/android/splash-port-xxhdpi.png" />
   
   
  <platform name="android">
