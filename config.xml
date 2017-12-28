@@ -27,16 +27,23 @@
   <preference name="prerendered-icon" value="true" />
   <preference name="stay-in-webview" value="true" />
   <preference name="exit-on-suspend" value="false" />
-  <preference name="show-splash-screen-spinner" value="true" />
-  <preference name="auto-hide-splash-screen" value="true" />
   <preference name="android-installLocation" value="auto" />
-  <preference name="SplashMaintainAspectRatio" value="true" />
   <preference name="CRIPageLoadPromptInterval" value="0" />
   <preference name="CRIShowConnectionErrorDialog" value="0" />
   <preference name="android-minSdkVersion" value="19" />
-  <!--<preference name="SplashScreenDelay" value="0"/>
-<preference name="FadeSplashScreenDuration" value="0"/>
+
+  
+  
+  
+  
+  <!--
+   <plugin name="cordova-plugin-splashscreen" />
+    <preference name="show-splash-screen-spinner" value="true" />
+  <preference name="auto-hide-splash-screen" value="true" />
+    <preference name="SplashMaintainAspectRatio" value="true" />
   -->
+  
+  
   <preference name="StatusBarOverlaysWebView" value="false" />
         <preference name="StatusBarBackgroundColor" value="#000000" />
         <preference name="StatusBarStyle" value="lightcontent" />
@@ -53,10 +60,14 @@
   <plugin name="cordova-plugin-inappbrowser" />  
   <plugin name="cordova-plugin-media" />
   <plugin name="cordova-plugin-network-information" />
-  <plugin name="cordova-plugin-splashscreen" />
+ 
   <plugin name="cordova-plugin-whitelist" />
   <plugin name="cordova-plugin-remote-injection" />
 
+  
+  
+  
+  
 
   <!-- Icons -->
   <icon src="icon.png" />
