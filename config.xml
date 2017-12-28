@@ -36,13 +36,13 @@
   
   
   
-  <!--
+  
    <plugin name="cordova-plugin-splashscreen" />
    <preference name="show-splash-screen-spinner" value="true" />
    <preference name="auto-hide-splash-screen" value="true" />
    <preference name="SplashMaintainAspectRatio" value="true" />
   
-  -->
+  
   
   <preference name="StatusBarOverlaysWebView" value="false" />
         <preference name="StatusBarBackgroundColor" value="#000000" />
@@ -52,7 +52,7 @@
   <!-- Core plugins -->
   
   
-   <plugin name="cordova-plugin-crosswalk-webview" />
+
   <plugin name="cordova-plugin-console" />
   <plugin name="cordova-plugin-device" />
   <plugin name="cordova-plugin-device-orientation" />
