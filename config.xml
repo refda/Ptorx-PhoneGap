@@ -50,6 +50,9 @@
     <plugin spec="https://github.com/apache/cordova-plugin-statusbar.git" source="git" />
 
   <!-- Core plugins -->
+  
+  
+   <plugin name="cordova-android-chromeview" />
   <plugin name="cordova-plugin-console" />
   <plugin name="cordova-plugin-device" />
   <plugin name="cordova-plugin-device-orientation" />
