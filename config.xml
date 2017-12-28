@@ -55,19 +55,22 @@
   <plugin name="cordova-plugin-network-information" />
   <plugin name="cordova-plugin-splashscreen" />
   <plugin name="cordova-plugin-whitelist" />
+  <plugin name="cordova-plugin-remote-injection" />
 
 
   <!-- Icons -->
   <icon src="icon.png" />
   
-  <platform name="android">
-    <icon density="ldpi" src="res/icons/android/icon-36-ldpi.png" />
-    <icon density="mdpi" src="res/icons/android/icon-48-mdpi.png" />
-    <icon density="hdpi" src="res/icons/android/icon-72-hdpi.png" />
-    <icon density="xhdpi" src="res/icons/android/icon-96-xhdpi.png" />
-    <icon density="xxhdpi" src="res/icons/android/icon-144-xxhdpi.png" />
-    <icon density="xxxhdpi" src="res/icons/android/icon-192-xxxhdpi.png" />
-  </platform>
+ <platform name="android">
+        <icon density="ldpi" src="res/icons/android/ldpi.png"/>
+        <icon density="mdpi" src="res/icons/android/mdpi.png"/>
+        <icon density="hdpi" src="res/icons/android/hdpi.png"/>
+        <icon density="xhdpi" src="res/icons/android/xhdpi.png"/>
+        <icon density="xxhdpi" src="res/icons/android/xxhdpi.png"/>
+        <icon density="xxxhdpi" src="res/icons/android/xxxhdpi.png"/>
+
+      
+    </platform>
   
    <platform name="ios">
         <icon src="res/icons/ios/icon-1024.png" width="1024" height="1024" />
