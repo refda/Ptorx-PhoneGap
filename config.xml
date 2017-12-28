@@ -155,4 +155,19 @@
 
   <meta http-equiv="Content-Security-Policy" content="default-src *; style-src * 'unsafe-inline'; script-src * 'unsafe-inline'; media-src *; img-src * data:; " />
 
+  <gap:config-file platform="ios" parent="CFBundleLocalizations" mode="replace"> 
+    <array>
+      <string>de</string>
+    </array>
+</gap:config-file>
+  
+  <plugin name="cordova-plugin-ionic-webview" />
+  <allow-navigation href="http://localhost:8080/*"/>
+<feature name="CDVWKWebViewEngine">
+  <param name="ios-package" value="CDVWKWebViewEngine" />
+</feature>
+
+<preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
+  
+  
 </widget>
