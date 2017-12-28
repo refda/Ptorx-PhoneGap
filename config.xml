@@ -87,6 +87,13 @@
         <splash density="port-xxhdpi" src="res/screens/android/splash-port-xxhdpi.png" />
         <splash density="port-xxxhdpi" src="res/screens/android/splash-port-xxxhdpi.png" />
    
+   <splash density="land-ldpi" src="res/screens/android/splash-land-ldpi.png" />
+        <splash density="land-mdpi" src="res/screens/android/splash-land-mdpi.png" />
+        <splash density="land-hdpi" src="res/screens/android/splash-land-hdpi.png" />
+        <splash density="land-xhdpi" src="res/screens/android/splash-land-xhdpi.png" />
+        <splash density="land-xxhdpi" src="res/screens/android/splash-land-xxhdpi.png" />
+        <splash density="land-xxxhdpi" src="res/screens/android/splash-land-xxxhdpi.png" />
+   
     </platform>
   
    <platform name="ios">
@@ -111,7 +118,9 @@
         <icon src="res/icons/ios/icon-167.png" width="167" height="167" />
         <icon src="res/icons/ios/icon-83.5@2x.png" width="167" height="167" />
 
-        <!-- Legacy portrait -->
+ <splash src="res/screens/ios/Default-Landscape~ipad.png" width="1024" height="768"/>
+        <splash src="res/screens/ios/Default-Landscape@2x~ipad.png" width="2048" height="1536"/>
+     
         <splash src="res/screens/ios/Default~iphone.png" width="320" height="480"/>
         <splash src="res/screens/ios/Default@2x~iphone.png" width="640" height="960"/>
         <splash src="res/screens/ios/Default-Portrait~ipad.png" width="768" height="1024"/>
