@@ -40,7 +40,7 @@
   <preference name="StatusBarOverlaysWebView" value="false" />
         <preference name="StatusBarBackgroundColor" value="#000000" />
         <preference name="StatusBarStyle" value="lightcontent" />
-      <gap:plugin name="com.phonegap.plugin.statusbar" />
+    <plugin spec="https://github.com/apache/cordova-plugin-statusbar.git" source="git" />
 
   <!-- Core plugins -->
   <plugin name="cordova-plugin-console" />
